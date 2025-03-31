@@ -1,0 +1,16 @@
+[project]
+name = "myproject"
+description = "Example project for learning about Python packages."
+version = "0.1.0"
+authors = [
+    {name = "Neal Morton", email = "nmorton@uwm.edu"}
+]
+dependencies = [
+    "numpy",
+    "polars",
+    "jupyter"
+]
+
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
